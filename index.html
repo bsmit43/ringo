@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ringo - Professional website">
+  <meta name="generator" content="Website Generator">
+  <title>ringo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans antialiased bg-gray-50">
+  
+<!-- NAV SECTION -->
+<nav class="bg-gradient-to-r from-green-100 to-cream-100 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-6 flex items-center justify-between">
+        <a href="#" class="text-2xl font-bold text-green-700">
+            Ringo
+        </a>
+
+        <div class="hidden md:flex space-x-6">
+            <a href="#" class="text-gray-700 hover:text-green-700 transition duration-300">Home</a>
+            <a href="#" class="text-gray-700 hover:text-green-700 transition duration-300">Services</a>
+            <a href="#" class="text-gray-700 hover:text-green-700 transition duration-300">About Us</a>
+            <a href="#" class="text-gray-700 hover:text-green-700 transition duration-300">Case Studies</a>
+            <a href="#" class="text-gray-700 hover:text-green-700 transition duration-300">Contact</a>
+        </div>
+
+        <button class="md:hidden text-gray-700 hover:text-green-700 focus:outline-none">
+            <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M4 5h16a1 1 0 011 1v1a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1zm0 6h16a1 1 0 011 1v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1a1 1 0 011-1zm0 6h16a1 1 0 011 1v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1a1 1 0 011-1z"/>
+            </svg>
+        </button>
+    </div>
+</nav>
+
+<!-- HEADER SECTION -->
+<header class="relative">
+  <div class="absolute inset-0 overflow-hidden">
+    <img src="/images/ge0c41d3c2896e6f030b846c8f3fcf97c2a69acce4a161e41f2c2af46811e85ccc6b302291b9b46802aa70f21ffc28e26a3ea12c389eabec0330bec36b8b43657_640.jpg" alt="Hotel Lobby" class="w-full h-full object-cover object-center scale-110 transform transition-transform duration-500 hover:scale-100" data-animate="fade-in">
+    <div class="absolute inset-0 bg-gradient-to-r from-green-900 to-green-500 opacity-70"></div>
+  </div>
+
+  <nav class="relative z-10 py-6">
+    <div class="container mx-auto px-6 flex items-center justify-between">
+      <a href="/" class="text-3xl font-semibold text-cream-100">
+        Ringo
+      </a>
+      <div class="hidden md:flex items-center space-x-6">
+        <a href="#" class="text-cream-100 hover:text-green-200 transition-colors duration-300">Services</a>
+        <a href="#" class="text-cream-100 hover:text-green-200 transition-colors duration-300">About Us</a>
+        <a href="#" class="text-cream-100 hover:text-green-200 transition-colors duration-300">Our Work</a>
+        <a href="#" class="text-cream-100 hover:text-green-200 transition-colors duration-300">Contact</a>
+        <a href="#" class="bg-green-200 text-green-900 py-2 px-4 rounded-full hover:bg-cream-100 hover:text-green-900 transition-colors duration-300">Get a Quote</a>
+      </div>
+      <div class="md:hidden">
+        <button id="mobile-menu-button" class="text-cream-100 hover:text-green-200 focus:outline-none focus:text-green-200">
+          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="relative z-10 container mx-auto px-6 py-24 md:py-32 lg:py-48">
+    <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-cream-100 mb-6" data-animate="slide-in-left">
+      Elevating Hospitality Experiences
+    </h1>
+    <p class="text-lg md:text-xl text-cream-200 mb-8" data-animate="slide-in-right">
+      Comprehensive hospitality management solutions tailored to your unique needs.
+    </p>
+    <a href="#" class="bg-green-200 text-green-900 py-3 px-6 rounded-full text-lg font-medium hover:bg-cream-100 hover:text-green-900 transition-colors duration-300" data-animate="fade-in">
+      Learn More
+    </a>
+  </div>
+</header>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="py-20 bg-cream">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="md:order-2" data-animate="fade-right">
+                <img src="/images/g05e47b8a7075a61ac35285da16ceb3e79a7f076d64053e853ee7d78276e44601f772c265ba0199d3d18e6aa3714d435e591f8d22cf48e78f5628cfe2c327af24_640-1.jpg" alt="About Ringo" class="rounded-lg shadow-lg">
+            </div>
+            <div class="md:order-1" data-animate="fade-left">
+                <h2 class="text-4xl font-bold text-green-800 mb-6">About Ringo Hospitality Management</h2>
+                <p class="text-lg text-gray-700 mb-6">
+                    At Ringo, we believe that exceptional hospitality is the cornerstone of memorable experiences. Founded on the principles of sustainability, innovation, and unwavering commitment to guest satisfaction, we partner with hotels, resorts, and restaurants to elevate their operations and create thriving environments.
+                </p>
+                <p class="text-lg text-gray-700 mb-6">
+                    Our team of seasoned hospitality professionals brings decades of experience to the table, offering tailored solutions that address the unique challenges and opportunities within your business. From revenue management and operational efficiency to guest experience design and marketing strategies, we provide comprehensive support to help you achieve your goals.
+                </p>
+                <p class="text-lg text-gray-700">
+                    We are passionate about creating a positive impact, not only for our clients but also for the communities in which they operate. Through sustainable practices, ethical sourcing, and community engagement initiatives, we strive to build a better future for the hospitality industry and beyond.
+                </p>
+            </div>
+        </div>
+
+        <div class="mt-16 text-center" data-animate="fade-up">
+            <h3 class="text-3xl font-semibold text-green-800 mb-4">Our Core Values</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-green-700 mb-2">Sustainability</h4>
+                    <p class="text-gray-600">We are committed to minimizing our environmental impact and promoting responsible practices throughout the hospitality ecosystem.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-green-700 mb-2">Innovation</h4>
+                    <p class="text-gray-600">We embrace creativity and technology to develop innovative solutions that enhance guest experiences and drive operational efficiency.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-green-700 mb-2">Excellence</h4>
+                    <p class="text-gray-600">We strive for excellence in everything we do, from our service delivery to our commitment to client satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="services" class="py-20 bg-cream">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold text-green-800 mb-8 data-animate">Our Services</h2>
+        <p class="text-gray-700 text-lg mb-12 data-animate">
+            We offer comprehensive hospitality management solutions tailored to your unique needs. From optimizing operations to enhancing guest experiences, we're dedicated to helping you achieve success.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 data-animate">
+
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <img src="/images/g2682b6b5581bcf45070f9f131ecf868021f8d59b1bd7538cb88052445893709a1de17574c5b770e92d88aaa56a3ffafb4aa115c39ba847d8619d98dbb66d849b_640.jpg" alt="Hotel Management" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Hotel Management</h3>
+                <p class="text-gray-600">
+                    Maximize your hotel's potential with our expert management services. We handle everything from revenue management to staff training, ensuring smooth operations and exceptional guest satisfaction.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <img src="/images/ge7e63f088158ff4195b8fb91755bf8a38d9490169af0dabba05a90fe92db265d5705b57c88a281f9d98efb400bbe50d2_640.jpg" alt="Restaurant Management" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Restaurant Management</h3>
+                <p class="text-gray-600">
+                    Elevate your restaurant's performance with our tailored management solutions. We optimize menus, streamline operations, and enhance the dining experience to attract and retain customers.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <img src="/images/g5ef1e460e62ec53fc42d7df80b4ee9c4f69e72e33776c1286ca84869045dd63b59cbe0916e7222c62e0b24027ba37cec0ea37d1c8bc2a474be162c5747c36991_640.jpg" alt="Event Planning" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Event Planning & Coordination</h3>
+                <p class="text-gray-600">
+                    Create unforgettable events with our expert planning and coordination services. From corporate gatherings to weddings, we handle every detail to ensure a seamless and memorable experience.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <img src="/images/g3ef2c35dcfd90ad5f9fe8d76f600050013d9b2f0d669939a4062f4e47eb9bf08aec7dab912d66ac0ca80c49eac4e897463c1c0ea31ddae3917348d754776dedb_640.jpg" alt="Consulting Services" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Hospitality Consulting</h3>
+                <p class="text-gray-600">
+                    Gain valuable insights and strategic guidance with our hospitality consulting services. We analyze your business, identify opportunities for improvement, and develop customized solutions to drive growth.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <img src="/images/g6e1d5f74a7c2dab38d76d81d8b946dea98df984b384e3423912fdc4f687291825a51d325d5c911b6c67abfef8839437e2ce681cd03abd15ef5bf37709ce2187f_640.jpg" alt="Training Programs" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Staff Training & Development</h3>
+                <p class="text-gray-600">
+                    Invest in your team's success with our comprehensive training programs. We equip your staff with the skills and knowledge they need to deliver exceptional service and contribute to your business's growth.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <img src="/images/g8e8b7e27cfc7550a8bc828b1cec92e840ab2a587143e4b1f6c6424964f1084c0866fca62a947ff5f79ff0288bebabdfad84fa3fa90b00f69def1b184a815bf00_640.jpg" alt="Marketing and Branding" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Marketing & Branding</h3>
+                <p class="text-gray-600">
+                    Enhance your brand's visibility and attract more customers with our marketing and branding expertise. We develop targeted strategies to promote your business and create a lasting impression.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section id="features" class="py-20 bg-cream">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl lg:text-5xl font-bold text-green-800 mb-4 data-animate">Empowering Hospitality Excellence</h2>
+            <p class="text-gray-600 text-lg data-animate">Our comprehensive suite of features is designed to streamline your operations, enhance guest experiences, and maximize profitability.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="bg-white shadow-lg rounded-lg p-6 data-animate">
+                <img src="/images/g26283071675c0f827f97c7508878ed383c5838bf7a91b92c205c5e7ac5c3dce6d452aa0968edb4d8b709013bc2830f355f82aa7b52210dfbd593c52a3c0d0ef0_640-1.jpg" alt="Reservation Management" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Reservation Management</h3>
+                <p class="text-gray-500">Effortlessly manage bookings, track availability, and optimize occupancy rates with our intuitive reservation system.  Accept online bookings, manage room inventory, and automate confirmation emails.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg p-6 data-animate">
+                <img src="/images/gaf61688212cafb8b3fa7bfbd34ca0e39a0c5170feb4ef15c60968a3faf6b58e0c551c7bc7eb5493bd50a58fd51f71f1eb576d4def7d28696e358cd9ec4bd8a54_640.jpg" alt="Guest Relationship Management" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Guest Relationship Management (CRM)</h3>
+                <p class="text-gray-500">Build lasting relationships with your guests through personalized communication and targeted offers. Track guest preferences, manage loyalty programs, and enhance satisfaction.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg p-6 data-animate">
+                <img src="/images/g8265e48be5c297f5f5bad2920ae0aa5b2e1e390c1a58605ff89735c2106364b5e36b768b6177b3098b55b48435876554f1638f14ecf931f739dded624f6e9569_640.jpg" alt="Point of Sale (POS) Integration" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Point of Sale (POS) Integration</h3>
+                <p class="text-gray-500">Seamlessly integrate your POS system for efficient billing, order management, and inventory tracking.  Accept payments, manage tables, and streamline your restaurant or bar operations.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg p-6 data-animate">
+                <img src="/images/g04725c8babdfdfe72f05b7646ad4adad8fd33f7459e90d410b086d071352c2f62c952285808d4e253a704706568c7bbdefa7d94997daa393bbc8c561daf46b6d_640-1.jpg" alt="Housekeeping Management" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Housekeeping Management</h3>
+                <p class="text-gray-500">Optimize your housekeeping operations with task assignments, scheduling, and real-time tracking. Ensure cleanliness and maintain high standards of hygiene.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg p-6 data-animate">
+                <img src="/images/ge7e63f088158ff4195b8fb91755bf8a38d9490169af0dabba05a90fe92db265d5705b57c88a281f9d98efb400bbe50d2_640.jpg" alt="Reporting and Analytics" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Reporting and Analytics</h3>
+                <p class="text-gray-500">Gain valuable insights into your business performance with comprehensive reports and analytics dashboards. Track key metrics, identify trends, and make data-driven decisions.</p>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg p-6 data-animate">
+                <img src="/images/gea77096ecd7aa6f861cf56c3ff50ad2244da106f5331a65eef154faf3bd7d37a80d1a777dc107a4130d74ae03a77f209dfda0de1bfb9b551eab40885415a16d3_640.jpg" alt="Event Management" class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">Event Management</h3>
+                <p class="text-gray-500">Manage events seamlessly from initial planning to execution. Track attendees, manage schedules, and ensure a successful event experience for your guests. Handle catering, room bookings, and special requests all in one place.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
